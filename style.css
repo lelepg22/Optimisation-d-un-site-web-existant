@@ -65,9 +65,16 @@ a:hover {
     font-size: 1.2em;
 
 }
+.titrefooter{
+    font-size: 1.22em;
+}
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+}
+.margintitreheader {
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 .bloc-lg {
@@ -687,7 +694,7 @@ label,
 a{
     font-family: "helvetica";
     font-weight: 400;
-    color: #FFFEB7;
+    color: white;
 
 }
 
@@ -838,8 +845,8 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #364577!important;
-    color: #FFFFFF!important;
+    background: #f0cebb!important;
+    
 }
 
 .ltc-white {
@@ -1105,6 +1112,10 @@ h4 {
 .socialpage2{ 
     margin-left: auto !important;
 }
+.margintitreheader {
+    margin-top: 25px;
+    margin-bottom: -31px
+
 }
 @media screen and (max-width:719px)
 {
@@ -1122,6 +1133,9 @@ h4 {
 #bloc-3-what-i-do {
     display: none;
 }
+.margintitreheader {
+    margin-top: 25px;
+    margin-bottom: -31px
 
 }
 @media screen and (max-width:450px)
@@ -1129,3 +1143,4 @@ h4 {
     a[data-lightbox] { margin-left: auto;
     }
 }
+}}
