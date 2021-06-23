@@ -12,6 +12,10 @@ body {
     right: 26% !important;
     text-decoration: none;
 }
+.souligneheader
+{
+    text-decoration: underline;
+}
 
 .socialpage2{
     margin-left: 33% !important;
